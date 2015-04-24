@@ -1,0 +1,8 @@
+[
+    {"datatype": "searchstring", "field": "searchstring", "unique": true, "type": "text"},
+    {"datatype": "time", "field": "date", "unique": true, "type": "text","derived":[{"resolution":"day","aggregate":"year"},{"resolution":"hour","aggregate":"day"},{"resolution":"year"},{"resolution":"month"},{"resolution":"day","aggregate":"week"}]},
+    {"datatype": "categorical", "field": "Newsgroups", "unique": false, "type": "text"},
+    {"datatype": "categorical", "field": "Organization", "unique": true, "type": "text"},
+    {"datatype": "categorical", "field": "username", "unique": true, "type": "text"},
+    {"datatype": "categorical", "field": "Path", "unique": false, "type": "text"}
+]

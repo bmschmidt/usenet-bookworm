@@ -1,0 +1,5 @@
+*.tgz
+bookworm/
+data.tar.gz
+input.txt
+jsoncatalog.txt
